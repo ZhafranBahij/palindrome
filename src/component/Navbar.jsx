@@ -5,10 +5,10 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import profile from "../img/Shizuku.jpg";
 
 const navigation = [
-  { name: "Home", href: "#", current: false },
-  { name: "About", href: "#", current: false },
-  { name: "Unknown", href: "#", current: false },
-  { name: "Unknown", href: "#", current: false },
+  { name: "Home", act: "#", current: false },
+  { name: "About", act: "#", current: false },
+  { name: "Unknown", act: "#", current: false },
+  { name: "Unknown", act: "#", current: false },
 ];
 
 function classNames(...classes) {

@@ -5,7 +5,7 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App className="bg-[url('/img/Background.jpg')]" />
   </React.StrictMode>,
   document.getElementById("root")
 );
