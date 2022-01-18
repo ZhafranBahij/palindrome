@@ -3,10 +3,11 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import profile from "../img/Shizuku.jpg";
+import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", act: "#", current: false },
-  { name: "About", act: "#", current: false },
+  { name: "Home", act: "/", current: false },
+  { name: "About", act: "/about", current: false },
   { name: "Create By", act: "#", current: false },
   { name: "Unknown", act: "#", current: false },
 ];
@@ -44,7 +45,8 @@ export default function Example() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <button
+                      <Link
+                        to={item.act}
                         key={item.name}
                         className={classNames(
                           item.current
@@ -55,7 +57,7 @@ export default function Example() {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </button>
+                      </Link>
                     ))}
                   </div>
                 </div>

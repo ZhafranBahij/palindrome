@@ -3,7 +3,6 @@ import { useState } from "react";
 const Content = () => {
   const [word, setWord] = useState("");
   const [answer, setAnswer] = useState("");
-  const [isPalindrome, setIsPalindrome] = useState(true);
 
   const handleChange = (event) => {
     setWord(event.target.value);
