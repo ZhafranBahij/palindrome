@@ -4,6 +4,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       title: ["Major Mono Display"],
+      paragraph: ["Montserrat"],
     },
   },
   plugins: [

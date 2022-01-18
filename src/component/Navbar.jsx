@@ -7,7 +7,7 @@ import profile from "../img/Shizuku.jpg";
 const navigation = [
   { name: "Home", act: "#", current: false },
   { name: "About", act: "#", current: false },
-  { name: "Unknown", act: "#", current: false },
+  { name: "Create By", act: "#", current: false },
   { name: "Unknown", act: "#", current: false },
 ];
 
