@@ -42,12 +42,12 @@ const Content = () => {
           <form onSubmit={handleSubmit}>
             <input
               type="text"
-              class="form-input my-4 px-2 py-1 sm:px-4 sm:py-3 rounded-full text-gray-900"
+              className="form-input my-4 px-2 py-1 sm:px-4 sm:py-3 rounded-full text-gray-900"
               value={word}
               onChange={handleChange}
             />
             <button
-              class="bg-gray-500 outline outline-gray-200 mx-5 rounded-lg px-3 py-2"
+              className="bg-gray-500 outline outline-gray-200 mx-5 rounded-lg px-3 py-2"
               type="submit"
             >
               Enter
