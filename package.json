@@ -1,7 +1,7 @@
 {
   "name": "palindrome",
   "version": "0.0.0",
-  "homepage": "http://zhafranbahij.github.io/palindrome",
+  "homepage": "http://ZhafranBahij.github.io/palindrome",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
